@@ -1,0 +1,36 @@
+body{
+	background: #DCFFBE;
+}
+.register_Ok{
+	margin: 100px auto;
+	width: 700px;
+	height: 400px;
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #999;
+}
+.register_title{
+	padding-left: 10px ;
+	padding-top: 15px;
+	background: #F8F8F8;
+	height: 35px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.register_title span{
+	font-size: 19px;
+	font-family: "Microsoft Yahei";
+	color: #3F9207;
+}
+.register_content{
+	width: 400px;
+	height: 200px;
+	margin: 0 auto;
+}
+.register_content span{
+	display: block;
+	color: #3F9207;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}

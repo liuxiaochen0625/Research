@@ -1,0 +1,36 @@
+body{
+	background: #318DCF;
+}
+.system_error{
+	margin: 100px auto;
+	width: 700px;
+	height: 400px;
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #999;
+}
+.error_title{
+	padding-left: 10px ;
+	padding-top: 15px;
+	background: #F8F8F8;
+	height: 35px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.error_title span{
+	font-size: 19px;
+	font-family: "Microsoft Yahei";
+	color: red;
+}
+.error_content{
+	width: 400px;
+	height: 200px;
+	margin: 0 auto;
+}
+.error_content span{
+	display: block;
+	color: red;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}

@@ -1,0 +1,20 @@
+.source_detail_div{
+	padding-left: 100px;
+	padding-top: 10px;
+	padding-right: 100px;
+}
+.detail_div{
+	background: #fff;
+	width: 1000px;
+	padding:10px;
+}
+.source_detail_table td{
+	padding-right: 30px;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+.description{
+	margin-top: 10px;
+	padding: 5px;
+	border:1px dashed #999;
+}

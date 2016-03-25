@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+        
+<hibernate-mapping package="com.hnust.research.domain">
+	<class name="Competition" table="t_competition">
+		<id name="id">
+			<generator class="native"></generator>
+		</id>
+		<property name="title"></property>
+		<property name="description" type="text" length="65536"></property>
+		<property name="status"></property>
+		<property name="author"></property>
+		<property name="start" type="date"></property>
+		<property name="end" type="date"></property>
+		<property name="noteIds" type="text" length="65536"></property>
+		<property name="count"></property>
+		
+		<!--softs属性,本类与soft的一对多关系  -->
+		<set name="softs">
+			<key column="competitionId"></key>
+			<one-to-many class="Soft"/>
+		</set>
+	</class>
+
+</hibernate-mapping>

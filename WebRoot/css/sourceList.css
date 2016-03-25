@@ -1,0 +1,112 @@
+.source_list_div{
+	width: 800px;
+	margin: 10px auto;
+}
+.source_list_ul{
+	
+}
+
+.source_list_ul li{
+	width: 760px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	border-top:4px solid #3779B0;
+	padding: 15px;
+	margin-left: -20px;
+}
+
+.source_list_ul li .source_title{
+	font: 16px/24px "微软雅黑";
+	color: #19558D;
+}
+.view{
+	padding-left: 4px;
+	padding-right: 4px;
+	font-size:14px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 24px;
+	text-align: center;
+	text-decoration: none;
+	background: none repeat scroll 0% 0% #FAFAFA;
+	border: 1px solid #E4E4E4;
+	color: #949494;
+}
+.view:hover{
+	background: #3779B0;
+	color: #fff;
+}
+.upload_name{
+	font-size: 14px;
+	font-family: Arial;
+}
+.upload_name a{
+	color: #4598D2;
+}
+.upload_name b{
+	color: red;
+}
+.upload_name td{
+	padding-right: 20px;
+}
+.source_list_middle{
+	margin-top: 5px;
+	margin-bottom:25px;
+	font-size: 14px;
+	font-family: Arial;
+}
+.source_content{
+	padding: 10px;
+	margin-top: 5px;
+	border:1px dashed #999;
+	display: none;
+}
+.click_expand{
+	font-size: 14px;
+	font-family: Arial;
+	width: 70px;
+}
+.click_expand a{
+	color: #4598D2;
+}
+.click_close{
+	display: none;
+	margin: 5px;
+	width: 40px;
+}
+.click_close a{
+	color: #4598D2;
+}
+
+.download_bottom{
+	margin-top: 10px;
+	position: relative;
+}
+.download_bottom input{
+	position: absolute;
+	right: 10px;
+	top:-5px;
+}
+
+.sort_case{
+
+}
+
+.sort_case h2{
+	border-bottom: 3px solid green;
+	font-size: 14px;
+	margin-left: 95px;
+	padding-bottom: 5px;
+	margin-right: 75px;
+}
+
+
+
+/*展开左边多蓝条样式*/
+.expand{
+	border-left: 4px solid #3779B0;
+	border-right: 4px solid #3779B0;
+	border-bottom: 4px solid #3779B0;
+}
+

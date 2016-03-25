@@ -1,0 +1,264 @@
+#upload_div{
+	width: 960px;
+	/*border: 1px solid red;*/
+	margin: 10px auto;
+
+}
+#upload_div p{
+	font-size: 16px;
+	font-family: "Microsoft Yahei";
+}
+#upload_div hr{
+	border: 1px solid;
+	color: #15A230;
+	margin-top: -10px;
+}
+.upload_main{
+	/*border: 1px solid red;*/
+	position: relative;
+}
+.upload_main .upload_left{
+	width: 700px;
+	display: inline-block;
+	background: #fff;
+	box-shadow: 3px 3px 3px #999;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+
+.description_span{
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+}
+.upload_main .upload_right{
+	position: absolute;
+	right: 10px;
+	display: inline-block;
+	width: 220px;
+	border: 1px solid #999;
+	box-shadow: 3px 3px 3px #999;
+	background: #fff;
+	border-radius: 8px;
+}
+.upload_main .upload_right .rule{
+	/*border:1px solid red;*/
+}
+.upload_main .upload_right .rule li{
+	margin-left: -20px;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color:#3289C9;
+}
+.title_div{
+	position: relative;
+	height: 30px;
+}
+.title_div span{
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+
+}
+.title_div input{
+	position: absolute;
+	left: 50px;
+	width: 400px;
+	height: 20px;
+}
+/*移入变蓝样式*/
+.title_div input:focus{
+	border:#35a5e5 1px solid;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+/*移入变蓝样式*/
+
+.type_div{
+	position: relative;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px dashed #999;
+	height: 40px;
+}
+.type_div span{
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+}
+.type_div_left{
+	position: absolute;
+	padding: 10px;
+	left: 10px;
+	height: 15px;
+	width: 300px;
+	border: 1px dashed orange;
+}
+.type_div_right{
+	padding: 10px;
+	position: absolute;
+	left: 350px;
+	height: 15px;
+	width: 300px;
+	border: 1px dashed orange;
+}
+.choose_file{
+	position: relative;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px dashed #999;
+}
+.choose_file a{
+	height: 25px;
+	font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	padding: 3px 9px;
+	background: none repeat scroll 0% 0% #15BCCF;
+	border-radius: 4px;
+	border: 1px solid #15BCCF;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 0px 2px #FFF inset;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2), 0px 1px 0px #FFF;
+	cursor: pointer;
+}
+.choose_file input{
+	position: absolute;
+	left: 0px;
+	width: 70px;
+	opacity: 0;
+	cursor: pointer;
+}
+#file_info{
+	margin-top:10px;
+	padding-bottom:10px;
+	padding-top: 10px;
+	width: 700px;
+	overflow: hidden;
+}
+#file_info span{
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	border: 1px dashed orange;
+	padding: 5px;
+	margin: 10px;
+}
+.img_div{
+	margin-bottom: 10px;
+	border: 1px dashed #999;
+	padding: 10px;
+	position: relative;
+}
+.img_div a{
+	height: 25px;
+	font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	padding: 3px 9px;
+	background: none repeat scroll 0% 0% #15BCCF;
+	border-radius: 4px;
+	border: 1px solid #15BCCF;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 0px 2px #FFF inset;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2), 0px 1px 0px #FFF;
+	cursor: pointer;
+}
+.help{
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	color: #15A230;
+}
+.every_img_info{
+	position: relative;
+	border-radius: 8px;
+	border: 1px solid #999;
+	width: 140px;
+	height: 200px;
+	padding: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.the_img{
+	position: relative;
+	border: 1px dashed #999;
+	width: 140px;
+	height: 160px;
+}
+/*移入变蓝样式*/
+.every_img_info:hover{
+	border:#35a5e5 1px solid;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+/*移入变蓝样式*/
+.every_img_info .delete{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	cursor: pointer;
+	opacity: 0.6;
+	z-index: 999;
+}
+.every_img_info .choose_img{
+	position: absolute;
+	bottom: 5px;
+	width: 72px;
+	left: 35px;
+	z-index: 100;
+	border: 1px solid red;
+	opacity: 0;
+	cursor: pointer;
+}
+.forimg{
+	position: absolute;
+	left: 35px;
+	bottom: 5px;
+}
+.other_img_info{
+	display: block;
+	width:140px;
+	height: 25px;
+	font-size: 11px;
+	font-weight: 400;
+	overflow: hidden;
+	color: black;
+	font-family: "Microsoft Yahei";
+}
+.ie_info{
+	position: absolute;
+	top: 15px;
+	display: block;
+	font-size: 12px;
+	font-weight: 400;
+	width: 140px;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	font-family: "Microsoft Yahei";
+}
+
+
+/*遮盖层样式*/
+.gray_bg{
+	position: absolute;
+	width: 720px;
+	height: 650px;
+	z-index: 9999;
+	top:0px;
+}
+.gray_bg .gray_bg_mid{
+	position: absolute;
+	left: 250px;
+	top: 290px;
+}
+/*遮盖层样式结束*/
+
+
+/*body上传时变色样式  */
+.loading_bg{
+	background: #D8D8D8;
+	z-index: 99999;
+	opacity: 0.6;
+}
+/*body上传时变色样式结束  */

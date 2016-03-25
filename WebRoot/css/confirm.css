@@ -1,0 +1,141 @@
+#resend_form li{
+	list-style: none;
+	color: #666;
+	font: 12px/1.62 Helvetica,Arial,sans-serif;
+}
+#resend_form li a{
+	color: #249ff1;
+	font: 12px/1.62 Helvetica,Arial,sans-serif;
+	text-decoration: none;
+}
+#resend_form li a:hover{
+	background: #249ff1;
+	color: #fff;
+}
+body{
+	background: #DCFFBE;
+}
+.confirm_div{
+	position: relative;
+	margin: 100px auto;
+	width: 700px;
+	height: 400px;
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #999;
+}
+.confirm_title{
+	padding-left: 10px ;
+	padding-top: 15px;
+	background: #F8F8F8;
+	height: 35px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.confirm_title span{
+	font-size: 19px;
+	font-family: "Microsoft Yahei";
+	color: #3F9207;
+}
+.confirm_content{
+	padding-top: 15px;
+	padding-left: 15px;
+	height: 85px;
+}
+.confirm_help{
+	padding-top: 20px;
+	padding-left: 20px;
+	height: 200px;
+}
+h1{
+	word-wrap: break-word;
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+	color: #494949;
+	margin: 0px;
+	padding: 0px 0px 15px;
+	line-height: 1.1;
+}
+h2{
+	font: 15px/150% Arial,Helvetica,sans-serif;
+    color: #072;
+    margin: 0px 0px 12px;
+}
+.p1{
+	color: #666;
+	font: 12px/1.62 Helvetica,Arial,sans-serif;
+}
+#email{
+	color: #060;
+	font-size: 14px;
+}
+.resend_checknumber{
+	border: 6px solid #C2C2C2;
+	width: 357px;
+	height: 203px;
+	position: absolute;
+	left: 200px;
+	top: 100px;
+	background: #fff;
+	z-index: 999;
+}
+h3{
+	padding: 0px 15px 15px 4px;
+	background: none repeat scroll 0px center transparent;
+	color: #060;
+	line-height: 10px;
+}
+.checknumber_title{
+	position: relative;
+	padding-left: 5px;
+	padding-top: 4px;
+	background: none repeat scroll 0% 0% #EBF5EB;
+	font-size: 14px;
+	border-radius: 4px 4px 0px 0px;
+}
+
+#close{
+	position: absolute;right: 10px;top: 10px;text-decoration: none;
+}
+#close:hover{
+	color: #FAB0BF;
+}
+.checkimg{
+	width: 300px;
+	margin:0 auto;
+	font-size: 14px;
+	color: #666;
+}
+.change{
+	font-size: 14px;
+	color: #249ff1;
+	text-decoration: none;
+}
+.checknumber{
+	width: 100px;
+	height: 20px;
+margin-left: 30px;
+margin-top: 10px;
+}
+.error{
+	font: 15px/150% Arial,Helvetica,sans-serif;
+	color: red;
+}
+.right{
+	font: 15px/150% Arial,Helvetica,sans-serif;
+	color: green;
+}
+.send_button{
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+	display:block;
+}
+.success{
+	font: 15px/150% Arial,Helvetica,sans-serif;
+}
+#make_sure{
+	display: block;
+	margin:0 auto;
+}

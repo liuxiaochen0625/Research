@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+        
+<hibernate-mapping package="com.hnust.research.domain">
+	<class name="User" table="t_user">
+		<id name="id">
+			<generator class="native"></generator>
+		</id>
+		<property name="username"></property>
+		<property name="password"></property>
+		<property name="sharecount"></property>
+		<property name="softcount"></property>
+		<!--创建时间，在类中是Date类型，翻译成数据库的必须是timestamp类型  -->
+		<property name="createdate" type="timestamp"></property>
+		<property name="imgpath"></property>
+		<property name="description"></property>
+		<property name="nickname"></property>
+		<property name="sex"></property>
+		<property name="active"></property>
+		<property name="mail"></property>
+		<property name="activeCode"></property>
+		
+		<!--sources属性,本类与Source类的一对多的关系  -->
+		<set name="sources">
+			<key column="userId"></key>
+			<one-to-many class="Source"/>
+		</set>
+		
+		<!--softs属性,本类与soft类的一对多的关系  -->
+		<set name="softs">
+			<key column="userId"></key>
+			<one-to-many class="Soft"/>
+		</set>
+		
+		<!--comments属性,本类与Comment类的一对多的关系  -->
+		<set name="comments">
+			<key column="userId"></key>
+			<one-to-many class="Comment"/>
+		</set>
+	</class>
+
+</hibernate-mapping>

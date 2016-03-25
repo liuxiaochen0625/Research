@@ -1,0 +1,86 @@
+.competition_list_div{
+	width: 900px;
+	margin: 0px auto;
+}
+.competition_list_ul{
+}
+.competition_list_ul li{
+	width: 760px;
+	margin-bottom: 15px;
+	background: #fff;
+	border-top:4px solid orange;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	padding: 15px;
+}
+.competition_title{
+	font: 16px/24px "微软雅黑";
+	color: #19558D;
+}
+.view{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	line-height: 24px;
+	text-align: center;
+	font-size:14px;
+	text-decoration: none;
+	background: none repeat scroll 0% 0% #FAFAFA;
+	border: 1px solid #E4E4E4;
+	color: #949494;
+}
+.view:hover{
+	background: #3779B0;
+	color: #fff;
+}
+.other_info td{
+	font-size:14px; 
+	padding-right: 10px;
+}
+.other_info td a{
+	color: #4598D2;
+}
+.competition_list_middle{
+	margin-top: 5px;
+}
+
+.attend_competition{
+	position: relative;
+	height: 20px;
+}
+.attend_competition input{
+	position: absolute;
+	right: 10px;
+}
+
+.competition_content{
+	display: none;
+	padding: 10px;
+	margin-top: 5px;
+	border:1px dashed #999;
+}
+
+.click_expand{
+	font-size: 14px;
+	font-family: Arial;
+	width: 70px;
+}
+.click_expand a{
+	color: #4598D2;
+}
+.click_close{
+	display: none;
+	margin: 5px;
+	width: 50px;
+}
+.click_close a{
+	color: #4598D2;
+}
+
+
+/*展开左边多橘黄条样式*/
+.expand{
+	border-left: 4px solid orange;
+	border-bottom: 4px solid orange;
+	border-right:4px solid orange;
+}

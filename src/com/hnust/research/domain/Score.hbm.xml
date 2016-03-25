@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+        
+<hibernate-mapping package="com.hnust.research.domain">
+	<class name="Score" table="t_score">
+		<id name="id">
+			<generator class="native"></generator>
+		</id>
+		<property name="level1"></property>
+		<property name="level2"></property>
+		<property name="level3"></property>
+		<property name="level4"></property>
+		<property name="level5"></property>
+		<property name="noteIds"></property>
+		<property name="scores"></property>
+	</class>
+
+</hibernate-mapping>

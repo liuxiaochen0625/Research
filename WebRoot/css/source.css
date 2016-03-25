@@ -1,0 +1,834 @@
+/*一些公共样式*/
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+body{
+	background: #EBEBEB;
+	margin: 0;
+	/* background: url(../images/source/bg.jpg) fixed; */
+}
+.selected{
+	border-bottom: 2px solid #fff;
+}
+/*------------------头部开始-----------------*/
+#header_wrapper{
+	width:100%;
+	height: 59px;
+	/*border: 1px solid red; */
+	background: url(../images/source/bg_repeat.png) repeat-x scroll 0px 0px transparent;
+} 
+#header{
+	width: 960px;
+	height: 59px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	position: relative;
+}
+#header img{
+	position: absolute;
+	top: 10px;
+	border-radius: 5px;
+}
+#header .logo{
+	position: absolute;
+	top: 10px;
+	font-size: 35px;
+	color: #fff;
+	line-height: 45px;
+	font-family: Arial #000,Arial
+}
+#header ul{
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	/*border: 1px solid red;*/
+	width:400px;
+	height: 30px;
+}
+#header ul li{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#header ul li a{
+	color: #fff;
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+}
+#header ul li a:hover{
+	border-bottom: 2px solid #fff;
+}
+#header form{
+	position: absolute;
+	right: 100px;
+	top: 20px;
+	/*border: 1px solid green;*/
+	width: 200px;
+}
+#header form input.text{
+	padding: 6px;
+	width: 180px;
+	height: 18px;
+	line-height: 18px;
+	text-indent: 10px;
+	border: medium none;
+	color: #A9A9A9;
+	border-radius: 3px;
+}
+#header form input.text1{
+	padding: 6px;
+	width: 180px;
+	height: 18px;
+	line-height: 18px;
+	text-indent: 10px;
+	border: medium none;
+	color: #000;
+}
+#header form input.submit{
+	position: absolute;
+	right: 8px;
+	top: 4px;
+	width: 18px;
+	height: 20px;
+	opacity: 0;
+	cursor: pointer;
+}
+#header form .search_button{
+	position: absolute;
+	top: 4px;
+	right: 8px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	/*border: 1px solid red;*/
+	background: url(../images/source/sprite.png) no-repeat scroll 0px 0px #FFF;
+}
+#header .login_register{
+	position: absolute;
+	right: 0px;
+	top: 30px;
+}
+#header .login_register a{
+	color: #fff;
+	font-family: "Microsoft Yahei";
+	font-size: 15px;
+}
+#header .login_register a:hover{
+	border-bottom: 2px solid #fff;
+}
+/* 个人信息下拉框 */
+#header_wrapper .person_info{
+	position: absolute;
+	height: 20px;
+	width: 100px;
+	top: 30px;
+	right: -120px;
+}
+#header_wrapper .person_info .name{
+	position: absolute;
+	left: 45px;
+	top: 0px;
+	color: #fff;
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+	overflow: hidden;
+	display:block;
+	width:120px;
+}
+#header_wrapper .person_info a img.member{
+	position: absolute;
+	left:0px;
+	top: -18px;
+}
+#header_wrapper .person_info .scrollbar{
+	position: relative;
+	top: 20px;
+	height: 100px;
+	z-index:9999;
+	/*border:1px solid red;*/
+}
+#header_wrapper .person_info .scrollbar .menu{
+	position: absolute;
+	left: 0px;
+	top: -10px;
+	width: 50px;
+	height: 100px;
+	border-radius: 4px;
+	box-shadow: 3px 3px 3px #999;
+	/*border:1px solid blue;*/
+}
+#header_wrapper .person_info .scrollbar .menu li{
+	float: left;
+	display: block;
+	width: 90px;
+	height: 25px;
+	margin-left: -40px;
+	margin-top: 0px;
+	background: #318DCF;
+}
+#header_wrapper .person_info .scrollbar .menu li:hover{
+	background: #fff;
+}
+#header_wrapper .person_info .scrollbar .menu li a{
+	border: 1px solid #999;
+	display: block;
+	width: 90px;
+	height: 25px;
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+	color: #fff;
+	text-align: center;
+}
+#header_wrapper .person_info .scrollbar .menu li a:hover{
+	color: #3386C5;
+}
+/*头部结束  */
+
+/*-------------------------登录页面css------------------------------------*/
+#login{
+	width: 990px;
+	height: 300px;
+	/*border: 1px solid red;*/
+	margin: 10px auto;
+	background: #F6F6F6;
+	position: relative;
+}
+#login .go_register{
+	position: absolute;
+	bottom: 0px;
+	left: 200px;
+	width: 400px;
+	height: 50px;
+	/*border: 1px solid red;*/
+}
+#login .go_register a{
+	color: green;
+}
+#login .go_register a:hover{
+	text-decoration: underline;
+}
+#login form{
+	/*border: 1px solid blue;*/
+	position: absolute;
+	width: 700px;
+	height: 230px;
+	left: 150px;
+}
+#login .logindiv{
+	margin: 20px;
+	/*border:1px solid red;*/
+	position: relative;
+}
+#login .logindiv span{
+	font-size: 14px;
+	color: #DC1615;
+	font-weight: bold;
+}
+#loginform .logindiv input{
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+	border: 1px solid #999;
+	border-radius: 4px;
+	color: #999;
+}
+#loginform .logindiv label{
+	margin-top: 5px;
+	width: 70px;
+	float: left;
+	text-align: right;
+	/*border:1px solid red;*/
+}
+#loginform .logindiv input:focus{
+	border:#35a5e5 1px solid;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}	
+#login .logindiv input.remmber{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#login .logindiv p{
+	position: absolute;
+	display: block;
+	left: 20px;
+	top: -12px;
+	font-size: 14px;
+}
+#login .logindiv input.submit{
+	position: absolute;
+	left: 100px;
+	top: 30px;
+	width: 60px;
+	height: 30px;
+	background: #3BA354;
+	color: #fff;
+	cursor: pointer;
+}
+#login .logindiv input.submit:hover{
+	background: #3BA123;
+}
+.loginError{
+	margin-top:5px;
+	margin-bottom:-5px;
+	display:block;
+	width:250px;
+	background:#ccc url(../images/source/error.gif) no-repeat; 
+	padding-left:25px; 
+	padding-right:3px;
+	color:#DC1615;
+	font-size:14px;
+	font-family: "Microsoft Yahei";
+}
+/*-------------------------登录页面css结束------------------------------------*/
+#register{
+	width: 990px;
+	height: 400px;
+	/*border: 1px solid red;*/
+	margin: 10px auto;
+	background: #F6F6F6;
+	position: relative;
+}
+#register b{
+	position: absolute;
+	left: 200px;
+	top: 10px;
+}
+#register form{
+	position: absolute;
+	top: 50px;
+	left: 200px;
+	width: 700px;
+	height: 300px;
+
+	/*border:1px solid red;*/
+}
+#register .registerdiv{
+	position: relative;
+	padding-left: 20px;
+	width: 100%;
+	height: 50px;
+	/*border: 1px solid red; */
+}
+#register .registerdiv label{
+	/*position: absolute;*/
+	margin-top: 5px;
+	top: 5px;
+	float: left;
+	width: 100px;
+	text-align: right;
+	/*border:1px solid red;*/
+}
+#register .registerdiv input{
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+	border: 1px solid #999;
+	border-radius: 4px;
+	color: #999;
+}
+#register .registerdiv input.hover{
+	border:#35a5e5 1px solid;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+#register .registerdiv input.check{
+	display: block;
+	width: 80px;	
+}
+
+#register .registerdiv a{
+	position: absolute;
+	left: 240px;
+	top: 0px;
+}
+#register .registerdiv .checknumberinfo{
+	position: absolute;
+	right: 255px;
+	top: 10px;
+}
+#register .registerdiv input.register_submit{
+	width: 50px;
+	height: 30px;
+	background: #3BA354;
+	color: #fff;
+	position: absolute;
+	left: 120px;
+}
+#register .registerdiv input.register_submit:hover{
+	background: #3BA123;
+}
+#register .registerdiv a.go_login{
+	position: absolute;left: 90px;top: 2px;color: green;
+}
+#register .registerdiv a.go_login:hover{text-decoration: underline;}
+
+/*注册提示信息css*/
+.reda { color:red;}
+.a2 { width:100px; margin-left:5px; padding:2px; background:#ccc;}
+.error { background:#ccc url(../images/source/error.gif) no-repeat; padding-left:25px; padding-right:3px;}
+.righta { background:#ccc url(../images/source/righta.gif) no-repeat; padding-left:25px; padding-right:3px;}
+
+/*--------------------注册css结束---------------*/
+
+/*个人信息页面css开始*/
+.member_title{
+	width: 960px;
+	margin: 0 auto;
+}
+.member_title h2{
+	margin-top: 10px;
+	border-bottom: 2px solid #40AA53;
+	color: #333;
+	font-size: 11pt;
+	margin-bottom: 10px;
+	line-height: 28px;
+	width: 960px;
+	overflow: hidden;
+}
+#member_info{
+	width: 960px;
+	height: 350px;
+	/*border: 1px solid red;*/
+	margin: 10px auto;
+	position: relative;
+}
+#member_info .left{
+	/*position: absolute;*/
+	border: 1px solid #999;
+	width: 200px;
+	/*height: 500px;*/
+	padding-left: 10px;
+	padding-right: 10px;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+		background: #E9F2FC;
+}
+#member_info .left b{
+	margin-left: 20px;
+}
+#member_info .left ul li{
+	font-size: 14px;
+	color: #000;
+	margin-top: 10px;
+	cursor: pointer;
+	width:70px;
+	/* border:1px solid red; */
+}
+#member_info .left ul li.click{
+	font-weight: 900;
+}
+#member_info .right{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 700px;
+	height: 350px;
+	border: 1px solid #999;
+	box-shadow: 3px 3px 3px #999;
+	background: #E9F2FC;
+	display: none;
+}
+/*文件上传进度条div样式  */
+#member_info .right .progress{
+	width:300px;height: 20px;border: 1px solid pink; margin: 0 auto;position: absolute;top:5px; left:150px;
+}
+/*首先让span先隐藏起来,当文件域验证通过之后再来显示进度条  */
+#member_info .right .progress .bar_span{
+	display: block;width: 0%;height: 20px;background: green;color: #fff;text-align: right;
+}
+/*昵称框的样式  */
+.nickname{
+	width:150px;
+	height:25px;
+	padding-left:5px;
+	font-family: "Microsoft Yahei";
+}
+
+#member_info .right form{
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#member_info .right form.upload_img{
+	position: relative;
+	width:500px;
+	border-radius: 4px;
+	margin-top: 40px;
+	/*这里设置z-index是为了让form在div的顶层*/
+	z-index:10;
+}
+input.file0{
+	width: 80px;
+	height: 20px;
+	border: 1px solid red;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	cursor: pointer;
+}
+#member_info .right form.upload_img .filepath{
+	display: block;
+	background: #249ff1;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.forimg{
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+}
+#choose{
+	/*将a标签放在file控件的下方*/
+	z-index:-1;
+	position: absolute;
+	display: block;
+	width: 80px;
+	height: 20px;
+	left: 0px;
+	bottom: 0px;
+	text-decoration: none;
+	cursor: pointer;
+	background: #249ff1;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	background: none repeat scroll 0% 0% #15BCCF;
+	border-radius: 4px;
+	border: 1px solid #15BCCF;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 0px 2px #FFF inset;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2), 0px 1px 0px #FFF;
+}
+#member_info .right form  div{
+	margin-top: 20px;
+}
+#member_info .right form div b.desc{
+	display: block;
+}
+#member_info .right form input.update{
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+}
+#member_info .right .notice{
+	margin-left: 30px;
+	color: red;
+	font-size:14px;
+	font-family: "Microsoft Yahei";
+}
+/*更新失败样式*/
+.updateError{
+	margin-top:5px;
+	margin-bottom:-5px;
+	display:block;
+	width:100px;
+	background:#ccc url(../images/source/error.gif) no-repeat; 
+	padding-left:25px; 
+	padding-right:3px;
+	color:#DC1615;
+	font-size:14px;
+	font-family: "Microsoft Yahei";
+}
+
+#member_info .right form input.forpassword{
+	position: absolute;
+	left: 230px;
+}
+#member_info .right form input.a5{
+	width: 150px;
+	height: 20px;
+}
+#member_info .right form label{
+	width: 100px;
+	float: left;
+	text-align: right;
+	/*border: 1px solid red;*/
+	margin-right: 5px;
+	font-weight: 800;
+}
+#moni_loading{
+	position: absolute;
+	left: 550px;
+	z-index: 999;
+}
+/*-------个人信息修改页面css样式结束---------*/
+
+
+/*清空div*/
+.clear{
+	width: 960px;
+	height: 200px;
+	border: 1px solid red;
+}
+/*清空div*/
+
+
+/*一些公共的样式------------------------------------------------------------------  */
+
+/*---------------底部版权区域开始----------*/
+#background{
+	background: #F7F7F7;
+	margin: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#copyright{
+	width: 1200px;
+	height: 60px;
+	margin: 0px auto;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+#copyright  .cp_top{
+	/*border: 1px solid red;*/
+	width: 500px;
+	margin: 0 auto;
+}
+#copyright  .cp_top a{
+	font-size: 14px;
+	color: #999;
+}
+#copyright .cp_mid{
+	/*border: 1px solid blue;*/
+	width: 400px;
+	margin: 10px auto;
+	font-family: Arial;
+	font-size: 12px;
+	color: #333;
+}
+#copyright p{
+	display: block;
+	width: 200px;
+	height: 20px;
+	font-size: 12px;
+	/*position: absolute;*/
+	margin: 10px auto;
+}
+/*---------------底部版权区域结束----------*/
+
+/*返回顶部的图片样式*/
+.back{
+			width: 57px;
+			height: 57px;
+			background: url('../images/source/back.png') no-repeat;
+			position: fixed;
+			z-index: 999;
+			right: 50px;
+			bottom: 50px;
+			_position: absolute;
+			_right: 50px;
+			_top:expression(document.documentElement.clientHeight-this.offsetHeight-50+document.documentElement.scrollTop);
+			cursor: pointer;
+			display: none;
+}
+
+
+/*最新分页样式*/
+.jogger{
+	margin: 10px auto;
+	padding-right: 2px;
+	padding-left: 2px;
+	padding-bottom: 2px;
+	margin: 7px;
+	padding-top: 2px;
+	font-family: "Lucida Sans Unicode","Lucida Grande", LucidaGrande, "Lucida Sans", Geneva, Verdana, sans-serif 
+}
+.jogger a{
+	font-size: 12px;
+	padding-right: 0.64em;
+	padding-left: 0.64em;
+	padding-bottom: 0.43em;
+	margin: 2px;
+	color: #fff;
+	padding-top: 0.5em;
+	background: #ee4e4e;
+	text-decoration: none;
+}
+.jogger a:hover{
+	padding-right: 0.64em;
+	padding-left: 0.64em;
+	padding-bottom: 0.43em;
+	margin: 2px;
+	color: #fff;
+	padding-top: 0.5em;
+	background: #de1818;
+}
+.jogger a:active{
+	padding-right: 0.64em;
+	padding-left: 0.64em;
+	padding-bottom: 0.43em;
+	margin: 2px;
+	color: #fff;
+	padding-top: 0.5em;
+	background:#de1818;
+}
+.jogger span.current{
+	padding-right: 0.64em;
+	padding-left: 0.64em;
+	padding-bottom: 0.43em;
+	margin: 2px;
+	color: #6d643c;
+	padding-top: 0.5em;
+	background:  orange;
+}
+.jogger span.page_info{
+	font-size: 14px;
+	background:  orange;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+}
+.xiala{
+	width: 70px;
+	height: 25px;
+}
+/*最新分页样式*/
+
+/*按钮美化 蓝色 */
+.likebutton{
+	height: 25px;
+	font-family: '微软雅黑',Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	padding: 3px 9px;
+	background: none repeat scroll 0% 0% #15BCCF;
+	border-radius: 4px;
+	border: 1px solid #15BCCF;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 0px 2px #FFF inset;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2), 0px 1px 0px #FFF;
+	cursor: pointer;
+}
+/*按钮美化 蓝色 */
+
+/*按钮美化1蓝色  */
+.likebutton1{
+	height: 25px;
+	font-family: '微软雅黑',Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	padding: 3px 9px;
+	background: none repeat scroll 0% 0% #15BCCF;
+	border-radius: 4px;
+	border: 1px solid #15BCCF;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 0px 2px #FFF inset;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2), 0px 1px 0px #FFF;
+	cursor: pointer;
+}
+/*按钮美化1蓝色  */
+
+/*按钮美化2橘黄色  */
+.likebutton2{
+	height: 25px;
+	font-family: '微软雅黑',Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	padding: 3px 9px;
+	background: none repeat scroll 0% 0% orange;
+	border-radius: 4px;
+	border: 1px solid orange;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 0px 2px #FFF inset;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2), 0px 1px 0px #FFF;
+	cursor: pointer;
+}
+/*按钮美化2橘黄色  */
+
+/*排序条件的样式*/
+.sort_case{
+	width: 960px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	margin: 10px auto;
+}
+.sort_case span{
+	font-size: 12px;
+}
+.sort_case .sort_div{
+	margin-left: 95px;
+	width: 760px;
+	height: 25px;
+	padding: 15px;
+	background: none repeat scroll 0% 0% #FFF;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+/*排序条件的样式结束*/
+
+/*==================评论的公共样式=================*/
+#comments_div{
+	margin: 10px auto;
+	padding: 10px;
+}
+#comments_div .create_comments{
+	
+}
+#comments_div .comments_list{
+	font-size: 12px;
+	font-family: "Helvetica Neue",微软雅黑,Tohoma;
+	color: #333;
+	background: #FAFAFA;
+	padding: 20px;
+	margin-top: 30px;
+}
+.comments_list ul{
+	list-style: none outside none;
+	margin: 0px;
+	padding:0px;
+}
+.comments_list ul .comments_item{
+	margin-top: 10px;
+}
+.comments_item_bd{
+ 	position: relative;
+ 	padding: 0px 0px 0px 40px;
+}
+.comments_item_bd .ui_avatar{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.comments_item_bd .comments_content{
+}
+.reply{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url('../images/source/sprite_qq.png');
+	background-position: -415px -150px;
+	margin-right: 10px;
+	background-repeat: no-repeat;
+	vertical-align: -3px;
+}
+.reply_div_wrapper{
+	margin-top: 5px;
+	padding-left: 40px;
+	display: none;
+}
+.reply_div_wrapper .reply_div{
+	width: 428px;
+	margin-bottom: 15px;
+}
+.reply_div .reply_form textarea{
+	font-size: 12px;
+	font-family: "Helvetica Neue",微软雅黑,Tohoma;
+	width: 420px;
+	height: 60px;
+	resize:none;
+}
+.reply_div .reply_form input{
+	float: right;
+}
+/*==================评论的公共样式=================*/
+
+
+
+

@@ -1,0 +1,92 @@
+.source_detail{
+	width: 960px;
+	margin: 10px auto;
+}
+.detail_title{
+	border-bottom: 2px solid #40AA53;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	height: 15px;
+}
+
+.detail_title ul li{
+	float: left;
+	margin-right: 10px;
+	font-family: "Microsoft Yahei";
+	font-size: 15px;
+}
+.detail_title ul li a{
+	color: #4598D2;
+}
+.detail_content{
+	width: 800px;
+	margin: 10px auto;
+	background: #fff;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	border:4px solid #3779B0;
+	padding: 20px;
+}
+.content_top{
+	position: relative;
+	height: 45px;
+}
+.content_top .left_img{
+	display: inline-block;
+}
+.content_top .left_img img{
+	width: 47px;
+	height: 47px;
+	border-radius: 4px;
+}
+.content_top .right_content{
+	position: absolute;
+	left: 70px;
+	top: 0px;
+	height: 45px;
+	width: 720px;
+}
+.content_top .right_content span a{
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	color:#19558D;
+
+}
+.content_top .right_content ul{
+	position: absolute;
+	left: -40px;
+	bottom: -20px;
+
+}
+.content_top .right_content ul li{
+	float: left;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	margin-right: 20px;
+	color: #333;
+}
+.content_top .right_content ul li a{
+	color: #0099FF;
+}
+.content_top .right_content ul li em{
+	color: red;
+}
+.content_middle{
+	width: 700px;
+	margin:25px auto;
+	border: 1px dashed #797979;
+	padding: 20px;
+}
+.content_bottom{
+	position: relative;
+	width: 740px;
+	height: 10px;
+	margin: 15px auto;
+}
+.content_bottom input{
+	position: absolute;
+	right: 0px;
+}

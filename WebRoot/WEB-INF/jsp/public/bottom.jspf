@@ -1,0 +1,26 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+	<div id="background">
+		<div id="copyright">
+			<!-- 上边 -->
+			<div class="cp_top">
+				<a href="">关于我们</a>
+				<a href="">联系我们</a>
+				<a href="">研究所主页</a>
+				<a href="">科大主页</a>
+				<a href="">科大教务</a>
+				<a href="">科大图书</a>
+				<a href="">网站导航</a>
+			</div>
+			<!-- 上边结束 -->
+
+			<!-- 中间 -->
+			<div class="cp_mid">
+				Copyright © 2014 hnust. All Rights Reserved
+			</div>
+			<!-- 中间结束 -->
+
+			<!-- 底部 -->
+			<p>湖南科技大学<em>版权所有</em></p>
+			<!-- 底部结束 -->
+		</div>
+	</div>

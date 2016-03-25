@@ -1,0 +1,44 @@
+.wrapper_competitionDetail{
+	width: 960px;
+	margin: 0px auto;
+}
+.wrapper_competitionDetail h2{
+	width: 840px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-bottom: 2px solid green;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	font-weight: 400;
+}
+.detail_div{
+	border:4px solid orange;
+	width: 820px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 10px;
+	font-size: 14px;
+	position: relative;
+	overflow: hidden;
+}
+.detail_div .top_title{
+}
+.detail_div .top_title span{
+	font-size: 18px;
+	color: #19558D;
+}
+.detail_div table td{
+	padding-right: 15px;
+}
+.detail_div table td a{
+	color: #4598D2;
+}
+.detail_div .competition_description{
+	margin-top: 10px;
+	margin-bottom: 40px;
+	width: 800px;
+	border:1px dashed #999;
+	overflow: hidden;
+	padding: 10px;
+}

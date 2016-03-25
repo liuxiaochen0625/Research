@@ -1,0 +1,33 @@
+.create_notice_wrapper{
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 20px;
+}
+.create_notice{
+	background: #fff;
+	padding: 10px;
+	border:1px solid #91C0E3;
+}
+.other{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.create_ul li{
+	padding: 10px;
+	position: relative;
+}
+.create_ul li span{
+	margin-left: 40px;
+}
+.operator{
+	margin-top: 10px;
+	text-align: center;
+}
+.operator input{
+	margin-right: 30px;
+}
+textarea{
+	color: #004779;
+	font-size: 14px;
+}

@@ -1,0 +1,154 @@
+body{
+	background-color: #F3F9FD;
+	color: #004779;
+	font-size: 13px;
+	font-family: 宋体;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 0px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style: none;
+}
+/*=======================标题部分=======================*/
+#title_bar{
+	height: 39px;
+	width: 100%;
+	background: no-repeat scroll 0% 0% #91C0E3;
+	border-bottom: 7px solid #fff;
+}
+#title_bar_head{
+	float: left;
+	padding-top: 11px;
+	padding-left: 12px;
+}
+.title_head{
+	float: left;
+	background: url('../../../images/admin/admin/right/title_bg_head.gif') no-repeat scroll 0% 0% transparent;
+	height: 28px;
+	width: 5px;
+}
+.title{
+	float: left;
+	background:  url('../../images/admin/right/title_bg.gif') repeat-x scroll 0% 0% transparent;
+	height: 28px;
+	color: #004A7D;
+	font-size: 14px;
+	font-family: 宋体;
+	font-weight: bold;
+	padding-left: 3px;
+	padding-top: 8px;
+	padding-right: 30px;
+}
+.title_end{
+	float: left;
+	background: url('../../images/admin/right/title_bg_end.gif') no-repeat scroll 0% 0% transparent;
+	height: 28px;
+	width: 80px;
+}
+/*======================标题部分结束====================*/
+
+/*表格样式*/
+.tableStyle{
+	font-size: 12px;
+	color: #004779;
+	font-family:"宋体";
+	border:medium none;
+}
+.tableTitle td{
+	background: url(../../images/admin/right/bg1.gif);
+	width: 100px;
+	height: 20px;
+	color:#fff;
+	text-align: center;
+	border-left: 1px solid #999;
+
+}
+.recordList td{
+	padding: 5px;
+	text-align: center;
+	background: #fff;
+	border-left: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+table td a{
+	color: #004779;
+	text-decoration: none;
+}
+table td a:hover{
+	color: orange;
+	text-decoration: underline;
+}
+/*表格样式*/
+
+
+/*分页CSS*/
+#Page{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#Page .pageInfo{
+	float: left;
+	margin-right: 100px;
+}
+#Page .pageInfo span{
+	margin-left: 20px;
+	font-size: 12px;
+	color: #004779;
+}
+.pageSelect{
+	padding: 0px;
+	margin: 0px;
+}
+.pageSelect li{
+	float: left;
+	list-style: none;
+	font-size: 12px;
+	color: #004779;
+	padding: 5px;
+	margin-left: 2px;
+	cursor: pointer;
+}
+.selectBar span{
+	margin-left: 10px;
+	font-size: 12px;
+	color: #004779;
+}
+.selectBar select{
+	font-size: 12px;
+	color: #004779;
+}
+.pageSelect .pageNum{
+	background: url(../../images/admin/right/pageSelector_bg.gif);
+}
+.pageSelect .prev{
+	background: url(../../images/admin/right/pageSelector_bg.gif);
+}
+.pageSelect .next{
+	background: url(../../images/admin/right/pageSelector_bg.gif);
+}
+.pageSelect .current{
+	background: url(../../images/admin/right/pageSelector_bg.gif);
+	color: red;
+}
+.pageSelect .first{
+	background: url(../../images/admin/right/pageSelector_bg.gif);
+}
+.pageSelect .end{
+	background: url(../../images/admin/right/pageSelector_bg.gif); 
+}
+
+/*分页CSS结束*/
+
+
+/*提示错误信息*/
+.error{
+	background: url(../../images/admin/right/error.gif) no-repeat;
+	padding-left:16px;
+	color:red;
+}
+/* 提示错误信息结束 */

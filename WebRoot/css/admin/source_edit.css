@@ -1,0 +1,26 @@
+.source_edit_div{
+	padding-left: 150px;
+	padding-top: 10px;
+	padding-right: 150px;
+}
+.edit_div{
+	background: #fff;
+	padding:10px;
+}
+.a1{
+	padding: 15px;
+}
+.a2{
+	display: inline-block;
+	margin-right: 20px;
+}
+.operator{
+	margin-top: 10px;
+	text-align: center;
+}
+.operator input{
+	margin-right: 30px;
+}
+img{
+	cursor: pointer;
+}

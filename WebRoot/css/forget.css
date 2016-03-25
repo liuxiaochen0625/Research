@@ -1,0 +1,43 @@
+.forget{
+	width: 990px;
+	height: 120px;
+	margin: 10px auto;
+	background: #F6F6F6;
+	position: relative;
+}
+b{
+	position: absolute;
+	left: 30px;
+	top: 20px;
+}
+hr{
+	position: absolute;
+	border: 1px solid #15A230;
+	width: 900px;
+	left: 30px;
+	top: 35px;
+}
+.forget_form{
+	position: absolute;
+	left: 100px;
+	top: 60px;
+	width: 600px;
+}
+.forget_form .mail{
+	width: 175px;
+	height: 25px;
+}
+.send{
+	width: 50px;
+}
+label{
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+}
+.help_em{
+	position: absolute;
+	left: 100px;
+	top: 18px;
+	font-style: normal;
+	font-family: "Microsoft Yahei";
+}

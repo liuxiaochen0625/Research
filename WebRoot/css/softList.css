@@ -1,0 +1,58 @@
+.soft_list_wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+.soft_list_wrapper h2{
+	width: 840px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-bottom: 2px solid green;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	font-weight: 400;
+}
+.soft_list_wrapper .soft_content{
+	width: 820px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 10px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.soft_content ul{
+	margin: 0px;
+	padding: 0px;
+}
+.soft_content ul li{
+	padding: 10px;
+	height: 40px;
+}
+.soft_content ul li div span{
+	font-size: 14px;
+}
+.soft_content ul li table td{
+	font-size: 14px;
+	padding-right: 10px;
+}
+.one{
+	background: #F7F4F4;
+}
+.two{
+	background: #CECECE;
+}
+
+/*分页div*/
+.page_wrapper{
+	width: 800px;
+	margin: 10px auto;
+}
+
+/*竞赛作品div里面的a样式*/
+.soft_content a{
+	color: #0089C8;
+}
+/*a移入样式变黄色,有下划线*/
+.soft_content a:hover{
+	text-decoration: underline;
+	color: orange;
+}
